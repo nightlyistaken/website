@@ -1,32 +1,21 @@
-<script>
-	import Toggler from '$lib/components/ModeButton.svelte';
+<script lang="ts">
+	// @ts-nocheck
 	import { fade } from 'svelte/transition';
-	function funfactsLink() {
-		window.location = '/funfacts';
-	}
-	function reportLink() {
-		window.location = 'https://github.com/dhairy-online/my-blog-v3';
-	}
 </script>
 
-
 <svelte:head>
-	<title>breadA</title>
+	<title>dhairy-online | Home</title>
 </svelte:head>
-
 <main in:fade>
-	<div class="jumbo">
-		<h1>
-			Hey there I'm breadA 👋 !
+	<div class="p-24">
+		<h1 class="text-4xl font-bold pb-6">
+			Hey there I'm <span class="font-extrabold text-purple-600">dhairy-online</span>
+			👋 !
 		</h1>
-		<p>I'm developer currently making games for deno_sdl2.<br> I'm Intrested in learning new things and eating some
-		really delicious food, Although I'm really thin 😐 My hobby is to watch some minecraft videos and
-		help my mom especially in the morning. <br></p>
-		<button on:click={funfactsLink}>Fun Facts</button>
-		<button on:click={reportLink}>Report a issue</button>
+		<a
+			href="https://github.com/dhairy-online/website/issues/new"
+			class="btn btn-primary btn-sm normal-case text-sm rounded-lg shadow-lg hover:ring-1"
+			>Report A Issue</a
+		>
 	</div>
 </main>
-
-<style lang="scss">
-	@import '../lib/styles/main.scss';
-</style>

@@ -56,7 +56,7 @@
 					><img src="https://img.icons8.com/material-outlined/24/ffffff/youtube-play--v1.png" /></a
 				>
 			</button>
-			<button class="btn btn-square btn-ghost" on:click={inProgess}>
+			<button class="btn btn-square btn-ghost">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					fill="none"
@@ -75,20 +75,11 @@
 	</div>
 </div>
 
-<slot>
-	<div class="form-control">
-		<span>
-			<span class="fa fa-github fa-2x" href="https://github.com/dhairy-online" aria-hidden="true" />
-		</span>
-		<span>
-			<span
-				class="fa fa-twitter fa-2x"
-				href="https://twitter.com/breadoonline"
-				aria-hidden="true"
-			/>
-		</span>
-		<span>
-			<span class="fa fa-home fa-2x" href="/" aria-hidden="true" />
-		</span>
-	</div>
-</slot>
+<slot />
+<div class="pl-24 pt-4">
+	<a
+		href="https://github.com/dhairy-online/website/issues/new"
+		class="btn btn-primary btn-sm normal-case text-sm rounded-lg shadow-lg hover:ring-1"
+		>Report A Issue</a
+	>
+</div>

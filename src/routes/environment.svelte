@@ -8,10 +8,10 @@
 </svelte:head>
 
 <main in:fade>
-	<div class="hero min-h-screen p-36">
+	<div class="hero min-h-screen p-10 sm:p-36">
 		<div class="flex-col hero-content lg:flex-row-reverse mr-4">
 			<div>
-				<h1 class="mb-5 text-6xl font-bold">
+				<h1 class="mb-5 text-2xl font-bold sm:text-6xl">
 					<span
 						class="glow text-transparent bg-clip-text bg-gradient-to-tr from-indigo-600 to-purple-200"
 						>My Dev-Enviroment</span
@@ -22,7 +22,7 @@
 				<Footer />
 			</div>
 		</div>
-		<div class="alert fixed">
+		<div class="alert fixed hidden sm:block">
 			<div class="flex-1">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"

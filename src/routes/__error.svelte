@@ -16,7 +16,7 @@
 </script>
 
 <div class="p-4 error" in:fade>
-	<div class="p-24 container text-center ml-6">
+	<div class="hero container text-center">
 		{#if status == '404'}
 			<h1 class="text-4xl font-extrabold font-mono p-3">{status} not found.</h1>
 			<p class="text-xl font-extrabold font-mono p-2">

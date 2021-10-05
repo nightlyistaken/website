@@ -6,7 +6,12 @@ const config = {
 			sans: ['Poppins', 'sans']
 		}
 	},
-	plugins: [require('daisyui')]
+	plugins: [require('daisyui')],
+	daisyui: {
+		themes: [
+			'dark' // default theme for all devices
+		]
+	}
 };
 
 module.exports = config;

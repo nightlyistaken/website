@@ -15,8 +15,8 @@
 	export let status: string;
 </script>
 
-<div class="p-4 error" in:fade>
-	<div class="hero container text-center">
+<div class="hero ring-1 hover:bg-gray-900 transition shadow-xl" in:fade>
+	<div class="hero-content text-center drop-shadow-2xl">
 		{#if status == '404'}
 			<h1 class="text-4xl font-extrabold font-mono p-3">{status} not found.</h1>
 			<p class="text-xl font-extrabold font-mono p-2">

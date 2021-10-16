@@ -9,9 +9,9 @@
 
 <main in:fade>
 	<div class="hero min-h-screen p-10 sm:p-36">
-		<div class="flex-col hero-content lg:flex-row-reverse mr-4">
+		<div class="flex-col hero-content lg:flex-row-reverse mr-4 gap-x-4">
 			<img
-				src="https://avatars.githubusercontent.com/u/62501544?s=400&u=a32c77ee5f64207ad0577b297f44862fa064de62&v=4"
+				src="./me.png"
 				alt="@dhairy-online"
 				class="hidden sm:block w-60 h-60 avatar mask mask-squircle cursor-move transform-gpu hover:scale-95 transition-transform"
 			/>

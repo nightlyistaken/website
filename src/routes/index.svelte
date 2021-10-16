@@ -12,8 +12,8 @@
 
 <Loader this={() => import('../lib/Main.svelte')}>
 	<div slot="fallback" class="hero min-h-screen">
-		<div class="hero-content text-center">
-			<progress class="progress progress-info" value={val} max="100" />
+		<div class="hero-content text-center motion-safe:animate-pulse ">
+			<progress class="progress progress-primary" value={val} max="100" />
 		</div>
 	</div>
 </Loader>

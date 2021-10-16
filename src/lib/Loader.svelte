@@ -12,6 +12,10 @@
 	export { loader as this };
 </script>
 
+<svelte:head>
+	<title>loading - dhairy-online</title>
+</svelte:head>
+
 <svelte:component this={Component} {...$$restProps}>
 	<slot />
 </svelte:component>

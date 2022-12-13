@@ -20,7 +20,7 @@ export default function Home() {
         </Hero>
         <Hero>
           Currently working on:
-          <Link link="/">this website<  /Link>
+          <Link link="/">this website</Link>
         </Hero>
         <Footer>
           <div class="antialiased decoration-dashed text-white text-6xl mx-auto max-w-[40rem] space-x-10">
@@ -34,8 +34,8 @@ export default function Home() {
             />
           </div>
           <div class="antialiased decoration-dashed text-white text-6xl mx-auto max-w-[40rem] space-x-10">
-            <Button name="GitHub" link="https://github.com/dhairy-online" />
-            <Button name="Twitter" link="https://twitter.com/dhairy_online" />
+            <Button name="GitHub" link="https://github.com/subwoofer5" />
+            <Button name="Twitter" link="https://twitter.com/subwoofer5_" />
           </div>
         </Footer>
       </main>

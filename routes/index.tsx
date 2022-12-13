@@ -20,7 +20,7 @@ export default function Home() {
         </Hero>
         <Hero>
           Currently working on:
-          <Link link="/">this website</Link>
+          <Link link="/">this website<  /Link>
         </Hero>
         <Footer>
           <div class="antialiased decoration-dashed text-white text-6xl mx-auto max-w-[40rem] space-x-10">

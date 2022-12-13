@@ -1,5 +1,9 @@
 import { asset, Head } from "$fresh/runtime.ts";
 import { Navbar } from "../components/Navbar.tsx";
+import { Button } from "../components/Button.tsx";
+import { Hero } from "../components/Hero.tsx";
+import { Link } from "../components/Link.tsx";
+import { Footer } from "../components/Footer.tsx";
 
 export default function Home() {
   return (
@@ -8,34 +12,33 @@ export default function Home() {
         <title>Fresh App</title>
         <link rel="stylesheet" href={asset("/global.css")} />
       </Head>
-      <div class="bg-black">
+      <main class="bg-black">
         <Navbar />
-        <section class="py-24 flex items-center min-h-screen justify-center">
-          <div class="antialiased decoration-dashed text-white text-6xl mx-auto max-w-[40rem]">Hey there, I'm nightly, who likes <span class="underline  text-gray-300">programming and gaming.</span></div>
-        </section>
-        <section class="py-24 flex items-center min-h-screen justify-center">
-        <div class="antialiased decoration-dashed text-white text-6xl mx-auto max-w-[40rem]"> 
-          <div class="flex flex-col">
-            Currently working on:
-            <div class="flex flex-row">
-              <div>
-                <a href="/" class="text-gray-300 underline">this website</a>
-                </div>
-              </div>
-          </div>
-        </div>
-        </section>
-        <section class="py-24 flex items-center min-h-screen justify-center flex-col space-y-14">
+        <Hero>
+          Hey there, I'm nightly, who likes{" "}
+          <Link link="/">programming and gaming.</Link>
+        </Hero>
+        <Hero>
+          Currently working on:
+          <Link link="/">this website</Link>
+        </Hero>
+        <Footer>
           <div class="antialiased decoration-dashed text-white text-6xl mx-auto max-w-[40rem] space-x-10">
-            <a class="bg-gray-300 text-black px-4 py-2 rounded-md  transition-colors hover:bg-black hover:text-white hover:border-b" href="https://discord.com/users/693747573105885205">Discord</a>
-            <a class="bg-gray-300 text-black px-4 py-2 rounded-md transition-colors hover:bg-black hover:text-white hover:border-b" href="https://open.spotify.com/user/nhfvem1bkwfjk5zvgmko21phu">Spotify</a>
+            <Button
+              link="https://discord.com/users/693747573105885205"
+              name="Discord"
+            />
+            <Button
+              link="https://open.spotify.com/user/nhfvem1bkwfjk5zvgmko21phu"
+              name="Spotify"
+            />
           </div>
           <div class="antialiased decoration-dashed text-white text-6xl mx-auto max-w-[40rem] space-x-10">
-            <a class="bg-gray-300 text-black px-4 py-2 rounded-md transition-colors hover:bg-black hover:text-white hover:border-b" href="https://github.com/dhairy-online">GitHub</a>
-            <a class="bg-gray-300 text-black px-4 py-2 rounded-md transition-colors hover:bg-black hover:text-white hover:border-b" href="https://twitter.com/nightlyistaken">Twitter</a>
+            <Button name="GitHub" link="https://github.com/dhairy-online" />
+            <Button name="Twitter" link="https://twitter.com/dhairy_online" />
           </div>
-        </section>
-      </div>
+        </Footer>
+      </main>
     </>
   );
 }

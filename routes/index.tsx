@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Fresh App</title>
+        <title>Nightly</title>
         <link rel="stylesheet" href={asset("/global.css")} />
       </Head>
       <main class="bg-black">

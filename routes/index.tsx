@@ -21,7 +21,7 @@ export default function Home() {
               <div>
                 <a href="/" class="text-gray-300 underline">this website</a>
                 </div>
-              </div>
+              </div> 
           </div>
         </div>
         </section>

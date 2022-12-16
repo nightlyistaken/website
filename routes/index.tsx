@@ -12,13 +12,17 @@ export default function Home() {
         <link rel="stylesheet" href={asset("/global.css")} />
       </Head>
       <body class="bg-[#02040F]">
-        <Hero>
-          Hey there I'm subwoofer, who likes{" "}
+        <Hero class="text-opacity-90 scale-90">
+          Hey there I'm subwoofer, and I like{" "}
           <Link link="/">programming</Link> and gaming.
         </Hero>
-        <Hero>
+        <Hero class="transition-colors hover:text-opacity-80">
           Currently working on:
-          <Link link="/">this website</Link>
+          <Link link="">this website</Link>
+        </Hero>
+        <Hero>
+          You may have heard me making music as{" "}
+          <Link link="/">subwoofer5</Link>
         </Hero>
         <Footer>
           <div class="text-white text-sm sm:text-6xl sm:max-w-[43rem] space-x-10">

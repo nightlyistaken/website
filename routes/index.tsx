@@ -1,5 +1,4 @@
 import { asset, Head } from "$fresh/runtime.ts";
-import { Navbar } from "../components/Navbar.tsx";
 import { Button } from "../components/Button.tsx";
 import { Hero } from "../components/Hero.tsx";
 import { Link } from "../components/Link.tsx";
@@ -9,21 +8,20 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Nightly</title>
+        <title>subwoofer5</title>
         <link rel="stylesheet" href={asset("/global.css")} />
       </Head>
-      <main class="bg-black">
-        <Navbar />
+      <body class="bg-[#02040F]">
         <Hero>
-          Hey there, I'm nightly, who likes{" "}
-          <Link link="/">programming and gaming.</Link>
+          Hey there I'm subwoofer, who likes{" "}
+          <Link link="/">programming</Link> and gaming.
         </Hero>
         <Hero>
           Currently working on:
           <Link link="/">this website</Link>
         </Hero>
         <Footer>
-          <div class="antialiased decoration-dashed text-white text-6xl mx-auto max-w-[40rem] space-x-10">
+          <div class="text-white text-sm sm:text-6xl sm:max-w-[43rem] space-x-10">
             <Button
               link="https://discord.com/users/693747573105885205"
               name="Discord"
@@ -33,12 +31,12 @@ export default function Home() {
               name="Spotify"
             />
           </div>
-          <div class="antialiased decoration-dashed text-white text-6xl mx-auto max-w-[40rem] space-x-10">
+          <div class="text-white text-sm sm:text-6xl sm:max-w-[43rem] space-x-10">
             <Button name="GitHub" link="https://github.com/subwoofer5" />
             <Button name="Twitter" link="https://twitter.com/subwoofer5_" />
           </div>
         </Footer>
-      </main>
+      </body>
     </>
   );
 }

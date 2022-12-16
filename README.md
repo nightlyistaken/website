@@ -13,7 +13,7 @@ To run this website locally, follow these steps:
 3. Open your browser and go to `localhost:8000`
 
 Alternatively, you can access the website at
-[nightly.deno.dev](https://nightly.deno.dev)
+[subwoofer.deno.dev](https://subwoofer.deno.dev)
 
 ### License
 

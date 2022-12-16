@@ -14,7 +14,7 @@ export default function Home() {
       <body class="bg-[#02040F]">
         <Hero class="text-opacity-90 scale-90">
           Hey there I'm subwoofer, and I like{" "}
-          <Link link="/">programming</Link> and gaming.
+          <Link link="/about">programming</Link> and gaming.
         </Hero>
         <Hero class="transition-colors hover:text-opacity-80">
           Currently working on:
@@ -31,8 +31,8 @@ export default function Home() {
               name="Discord"
             />
             <Button
-              link="https://open.spotify.com/user/nhfvem1bkwfjk5zvgmko21phu"
-              name="Spotify"
+              link="/about"
+              name="About "
             />
           </div>
           <div class="text-white text-sm sm:text-6xl sm:max-w-[43rem] space-x-10">

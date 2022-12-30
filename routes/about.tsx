@@ -8,18 +8,24 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>subwoofer5</title>
+        <title>Nightly</title>
         <link rel="stylesheet" href={asset("/global.css")} />
       </Head>
       <body class="bg-[#02040F]">
         <Hero class="sm:text-2xl">
-            Hello friend :] and welcome to my about page!<br/>
-            I'm subwoofer.<br/> I mostly do <span class="font-bold">Svelte, Deno, Rust and TS.</span>
-            <br/>
-            I currently work on <span class="font-bold">this website</span> and doing school stuff. I also make music as on youtube. 
+          Hello friend :] and welcome to my about page!<br />
+          I'm nightly.<br /> I mostly do <Link>Svelte, Deno, Rust and TS.</Link>
+          <br />
+          I currently work on this website and doing school stuff. I also make
+          {" "}
+          <Link>music as on youtube.</Link>
         </Hero>
         <Hero class="sm:text-2xl">
-            Fun fact: I'm <span class="bg-clip-text text-transparent bg-gradient-to-tr font-bold from-blue-200 to-red-600 ">13 years old!</span> Ik im young heh.
+          Fun fact: I'm{" "}
+          <span class="bg-clip-text text-transparent bg-gradient-to-tr font-bold from-blue-200 to-blue-400 ">
+            13 years old!
+          </span>{" "}
+          Ik im young heh.
         </Hero>
       </body>
     </>

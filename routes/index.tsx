@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>subwoofer5</title>
+        <title>Nightly</title>
         <link rel="stylesheet" href={asset("/global.css")} />
       </Head>
       <body class="bg-[#02040F]">
         <Hero class="text-opacity-90 scale-90">
-          Hey there I'm subwoofer, and I like{" "}
+          Hey there I'm nightly, and I like{" "}
           <Link link="/about">programming</Link> and gaming.
         </Hero>
         <Hero class="transition-colors hover:text-opacity-80">
@@ -22,7 +22,7 @@ export default function Home() {
         </Hero>
         <Hero>
           You may have heard me making music as{" "}
-          <Link link="/">subwoofer5</Link>
+          <Link link="/">nightlyistaken</Link>
         </Hero>
         <Footer>
           <div class="text-white text-sm sm:text-6xl sm:max-w-[43rem] space-x-10">
@@ -36,8 +36,8 @@ export default function Home() {
             />
           </div>
           <div class="text-white text-sm sm:text-6xl sm:max-w-[43rem] space-x-10">
-            <Button name="GitHub" link="https://github.com/subwoofer5" />
-            <Button name="Twitter" link="https://twitter.com/subwoofer5_" />
+            <Button name="GitHub" link="https://github.com/nightlyistaken" />
+            <Button name="Twitter" link="https://twitter.com/nightlyistaken" />
           </div>
         </Footer>
       </body>

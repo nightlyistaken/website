@@ -12,7 +12,7 @@ export default {
   preflight: {
     // Import external stylesheet
     "@import":
-      `url('https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,MONO@-1,430,0.25,1&display=swap')`,
+      `url('https://fonts.googleapis.com/css2?family=Recursive:wght,CASL,CRSV,MONO@510,1,1,0.25&display=swap')`,
     // Declare font face
   },
 } as Options;

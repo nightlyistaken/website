@@ -14,15 +14,18 @@ export default function Home() {
       <body class="bg-[#02040F]">
         <Hero class="text-opacity-90 scale-90">
           Hey there I'm nightly, and I like{" "}
-          <Link link="/about">programming</Link> and gaming.
+          <Link link="/about">programming</Link>{" "}
+          and gaming. I'm mostly online on{" "}
+          <Link link="https://discord.com/users/693747573105885205">
+            discord
+          </Link>.
         </Hero>
         <Hero class="transition-colors hover:text-opacity-80">
           Currently working on:
-          <Link link="">this website</Link>
+          <Link link="/">{" "}this website</Link>
         </Hero>
         <Hero>
-          You may have heard me making music as{" "}
-          <Link link="/">nightlyistaken</Link>
+          You may have heard me making music as <Link link="/">Nightly</Link>
         </Hero>
         <Footer>
           <div class="text-white text-sm sm:text-6xl sm:max-w-[43rem] space-x-10">

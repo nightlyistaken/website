@@ -11,7 +11,7 @@ export default function About() {
         <title>Nightly</title>
         <link rel="stylesheet" href={asset("/global.css")} />
       </Head>
-      <body class="bg-[#02040F]">
+      <body class="bg-gray-300">
         <Hero class="sm:text-2xl">
           Hello friend :] and welcome to my about page!<br />
           I'm nightly.<br /> I mostly do <Link>Svelte, Deno, Rust and TS.</Link>
@@ -22,7 +22,7 @@ export default function About() {
         </Hero>
         <Hero class="sm:text-2xl">
           Fun fact: I'm{" "}
-          <span class="bg-clip-text text-transparent bg-gradient-to-tr font-bold from-blue-200 to-blue-400 ">
+          <span class="bg-clip-text text-transparent bg-gradient-to-tr font-bold from-blue-500 to-blue-900 ">
             13 years old!
           </span>{" "}
           Ik im young heh.

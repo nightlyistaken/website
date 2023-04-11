@@ -11,18 +11,17 @@ export default function Home() {
         <title>Nightly</title>
         <link rel="stylesheet" href={asset("/global.css")} />
       </Head>
-      <body class="bg-[#02040F]">
+      <body class="bg-gray-300">
         <Hero class="text-opacity-90 scale-90">
-          Hey there I'm nightly, and I like{" "}
-          <Link link="/about">programming</Link>{" "}
+          Hey there I'm nightly, and I like <Link link="/about">music</Link>
+          {" "}
           and gaming. I'm mostly online on{" "}
           <Link link="https://discord.com/users/693747573105885205">
             discord
           </Link>.
         </Hero>
         <Hero class="transition-colors hover:text-opacity-80">
-          Currently working on:
-          <Link link="/">{" "}this website</Link>
+          Currently working on:{"  "}<Link link="/">A song</Link>
         </Hero>
         <Hero>
           You may have heard me making music as <Link link="/">Nightly</Link>
